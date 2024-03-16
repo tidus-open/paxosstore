@@ -957,6 +957,7 @@ PInsWrapper::produceRsp(const Message& msg, MessageType rsp_msg_type)
         break;
     }
 
+
     assert(rsp_msg->from() == msg.to());
     return rsp_msg;
 }
